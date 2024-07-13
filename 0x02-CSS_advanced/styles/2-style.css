@@ -20,7 +20,7 @@ body {
 
 /* for all anchor element  */
 a {
-    color: #161616;
+    color: var(--text-color);
 }
 
 /* all element with visually-hidden class  */
