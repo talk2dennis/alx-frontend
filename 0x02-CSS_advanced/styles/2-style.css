@@ -1,3 +1,13 @@
+/* create color variables */
+:root {
+   --color-primary: #d73953;
+   --color-black: #090909;
+   --color-white: #ffffff;
+   --color-light-grey: #f3f3f3;
+   --color-dark-grey: #353535;
+   --text-color: var(--color-black);
+}
+ 
  /* Enable vertical scrolling */
 html {
     scroll-behavior: smooth;
@@ -5,7 +15,7 @@ html {
 
 /* Add a black background color to the body */
 body {
-    color: #161616;
+    color: var(--text-color);
 }
 
 /* for all anchor element  */
@@ -20,10 +30,10 @@ a {
 
 /* all element with card-category class  */
 .card-category {
-    color: #D73953;
+    color: var(--color-primary);
 }
 
 /* all element with section-tagline class  */
 .section-tagline {
-    color: #D73953;
+    color: var(--color-primary);
 }
