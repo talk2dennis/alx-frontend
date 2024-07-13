@@ -1,4 +1,4 @@
  /* Enable vertical scrolling */
 html {
-    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
