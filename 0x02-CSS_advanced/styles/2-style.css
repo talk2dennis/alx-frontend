@@ -1,0 +1,29 @@
+ /* Enable vertical scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add a black background color to the body */
+body {
+    background-color: #161616;
+}
+
+/* for all anchor element  */
+a {
+    background: #161616;
+}
+
+/* all element with visually-hidden class  */
+.visually-hidden {
+    display: none;
+}
+
+/* all element with card-category class  */
+.card-category {
+    background: #D73953;
+}
+
+/* all element with section-tagline class  */
+.section-tagline {
+    background: #D73953;
+}
