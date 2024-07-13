@@ -1,3 +1,4 @@
+ /* Enable vertical scrolling */
 html {
-    overflow-y: scroll; /* Enable vertical scrolling */
+    overflow-y: scroll;
 }
