@@ -55,12 +55,12 @@
     font-style: italic;
  }
 
- a:active {
-    color: var(--color-light-grey);
- }
-
  a:hover {
     text-decoration: underline;
+ }
+
+ a:active {
+    color: var(--color-light-grey);
  }
  
  /* all element with visually-hidden class  */
