@@ -60,7 +60,7 @@
  }
 
  a:active {
-    color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
  }
  
  /* all element with visually-hidden class  */
