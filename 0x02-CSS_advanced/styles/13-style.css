@@ -46,7 +46,7 @@
  
  
  /* for all anchor element  */
- a {
+ a:link {
      color: var(--text-color);
      text-decoration: none;
  }
