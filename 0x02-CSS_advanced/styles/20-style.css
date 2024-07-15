@@ -392,7 +392,7 @@ template {
 }
 
 *, *::after, *::before {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 /* Enable vertical scrolling */
@@ -440,28 +440,28 @@ a:active {
 }
 
 .navbar-menu {
-  float: right;
+float: right;
 }
 
 .nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
+margin: 0;
+padding: 0;
+list-style: none;
+text-align: center;
 }
 
 .nav .nav-item {
-  font-family: var(--nav-item-font-family);
-  font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size);
-  letter-spacing: var(--nav-item-letter-spacing);
-  display: var(--nav-item-display);
-  margin: var(--nav-item-margin);
+font-family: var(--nav-item-font-family);
+font-weight: var(--nav-item-font-weight);
+font-size: var(--nav-item-font-size);
+letter-spacing: var(--nav-item-letter-spacing);
+display: var(--nav-item-display);
+margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
-  display: block;
-  padding: 0.5rem 1rem;
+display: block;
+padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
@@ -469,7 +469,7 @@ color: var(--nav-item-link-hover);
 }
 
 /* ul with class row */
-ul .row {
+ul.row {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -493,7 +493,7 @@ ul .row {
 }
 
 .section {
-  padding: var(--section-padding);
+padding: var(--section-padding);
 }
 
 
@@ -503,12 +503,12 @@ ul .row {
 }
 
 .section-body {
-  padding: var(--section-body-padding);
+padding: var(--section-body-padding);
 }
 
 .section-footer {
-  padding: var(--section-footer-padding);
-  text-align: var(--section-footer-align);
+padding: var(--section-footer-padding);
+text-align: var(--section-footer-align);
 }
 
 .section-title {
@@ -529,9 +529,9 @@ ul .row {
 }
 
 .container {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+width: 960px;
+margin-left: auto;
+margin-right: auto;
 }
 
 /* footer settings  */
@@ -546,5 +546,12 @@ ul .row {
 }
 
 .footer {
-  padding: var(--footer-padding);
+padding: var(--footer-padding);
+}
+
+/* CSS rule that creates a new row after each instance of the class row */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
 }
