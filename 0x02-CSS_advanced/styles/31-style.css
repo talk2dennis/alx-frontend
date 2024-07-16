@@ -553,7 +553,7 @@ color: var(--nav-item-link-hover);
   opacity: 1;
 }
 
-.card-quote {
+.card-testimonial .card-quote {
   position: relative;
 }
 
